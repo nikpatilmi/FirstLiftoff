@@ -1,0 +1,50 @@
+          /* Bg-image */
+body{
+    background: url(images/pixi.jpeg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+/* Brand */
+.logo{
+    height: 90px;
+    margin-right: 55px;
+    margin-top: 0px;
+    padding: 0px 0px 25px 0px;
+    top: 50px;
+  }
+
+.navbar.navbar-inverse{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav li{
+    font-family: 'Righteous', cursive;
+    font-size: 23px;
+    padding: 20px 35px;
+    color: red;
+}
+
+.nav li:hover{
+    border-bottom: 2px solid #f356da;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+#jsk{
+    background: transparent;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    color: #ffdfff;
+    text-align: center;
+}
+
+.bodyimg{
+  /* align-items: center; */
+  height: 100px;
+}
+
+.col-md-4{
+  text-align: center;
+  color: blue;
+}
